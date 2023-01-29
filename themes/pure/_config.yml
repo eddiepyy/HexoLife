@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>这是yst990102的个人生活网站，欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
@@ -113,7 +113,7 @@ share:
 # 项目仓库信息（将会覆盖 github 项）
 repository:
   platform: github # 托管平台（github | gitee）
-  username: cofess # 用户名
+  username: yst990102 # 用户名
 
 # Comment
 # Gitment
@@ -202,11 +202,11 @@ profile:
   articleSelfBlock: false # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
+  author: yst990102
+  author_title: 一个UNSW的计算机工程学生
   author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  location: 南京, 中国
+  follow: https://github.com/yst990102
   # Social Links
   social:
     links:

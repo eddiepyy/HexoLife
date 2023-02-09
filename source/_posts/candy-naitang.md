@@ -7,6 +7,7 @@ tags:
   - StripChat
 toc: true # 是否启用内容索引
 comments: false
+cover: http://google.hongkong.styuan990102.top:38219/?explorer/share/file&hash=44caNN50dNqFkLuTQjZCC2SR6CNlCp_LvjblbB_StAMM8rhlNAgEY1MYGZ105Tdsfuo
 ---
 看到个stripchat主播，有点像程潇。。。
 <div>

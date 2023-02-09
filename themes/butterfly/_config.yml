@@ -2,21 +2,31 @@
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
+# menu:
+#   Home: / || fas fa-home
+#   Archives: /archives/ || fas fa-archive
+#   Tags: /tags/ || fas fa-tags
+#   Categories: /categories/ || fas fa-folder-open
+#   List||fas fa-list:
+#     Music: /music/ || fas fa-music
+#     Movie: /movies/ || fas fa-video
+#   Link: /link/ || fas fa-link
+#   About: /about/ || fas fa-heart
 menu:
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+  主页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  列表||fas fa-list:
+    音乐: /music/ || fas fa-music
+    电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 nav:
-  logo: # image
+  logo: https://cdn.jsdelivr.net/gh/yst990102/PicBed/img/压缩头像.png # image
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: true # fixed navigation bar
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -26,22 +36,22 @@ highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
-code_word_wrap: false
+code_word_wrap: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/yst990102 || Github
+  fas fa-envelope: mailto:1093170697@qq.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -85,24 +95,25 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: https://cdn.jsdelivr.net/gh/yst990102/PicBed/img/压缩头像.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: https://raw.githubusercontent.com/yst990102/PicBed/main/img/202302020150759.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://raw.githubusercontent.com/yst990102/PicBed/main/img/202302020150759.png
 
 # The banner image of archive page
 archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+# tag_img: https://www.xtrafondos.com/wallpapers/personaje-de-apex-legends-4536.jpg
+tag_img: https://raw.githubusercontent.com/yst990102/PicBed/main/img/202302091727636.jpg
 
 # The banner image of tag page
 # format:
@@ -111,7 +122,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: https://raw.githubusercontent.com/yst990102/PicBed/main/img/202302091724059.jpg
 
 # The banner image of category page
 # format:
@@ -128,7 +139,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -710,8 +721,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2023/01/02
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -726,9 +737,9 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
-  default: 繁
+  default: 簡
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay

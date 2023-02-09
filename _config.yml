@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yst990102个人生活博客
+title: yst990102
 subtitle: ''
 description: '这是yst990102的个人生活博客'
 keywords:
@@ -105,3 +105,8 @@ deploy:
   type: git
   repository: git@eddiepyy.github.com:eddiepyy/eddiepyy.github.io.git
   branch: main
+
+
+
+aplayer:
+  meting: true

@@ -51,8 +51,14 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/yst990102 || Github
-  fas fa-envelope: mailto:1093170697@qq.com || Email
+  iconfont icon-github: https://github.com/yst990102 || Github
+  iconfont icon-email: mailto:1093170697@qq.com || Email
+  iconfont icon-gitee-fill-round: https://gitee.com/yst990102 || Gitee
+  iconfont icon-zhihu: https://www.zhihu.com/people/yst990102 || 知乎
+  iconfont icon-csdn1: https://blog.csdn.net/yst990102 || CSDN 
+  # segmentfault: https://segmentfault.com/u/yst990102
+  iconfont icon-juejin: https://juejin.cn/user/2793215293929255 || 掘金
+  
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -895,7 +901,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3889652_wzdny81ym9d.css">
   bottom:
     # - <script src="xxxx"></script>
 

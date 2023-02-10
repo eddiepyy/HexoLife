@@ -2,6 +2,7 @@
 title: 图库
 type: "gallery"
 ---
+### 这里所有的图片均存放在我NAS的自建Kodbox服务端上。无法查看的话请检查NAS状态。
 <div class="gallery-group-main">
 {% galleryGroup '2017年12月高中毕业友记' '2017年12月高中毕业时，毕业聚会和一些私下同学聚餐' 'http://google.hongkong.styuan990102.top:38219/#s/8-P1fEaQ' http://google.hongkong.styuan990102.top:38219/?explorer/share/file&hash=0e4eyWazt2undIEdl5OqEWFJh8fkhP_FERP0LFXWwMk9XR1WPFWHhrJ5VWcDNLtZBXN5&name=/28_2017-12-25_3E4F1331.jpeg %}
 

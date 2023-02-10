@@ -443,8 +443,8 @@ messenger:
 footer:
   owner:
     enable: true
-    since: 2020
-  custom_text:
+    since: 2022
+  custom_text: ICP备案/许可证号：苏ICP备2021044332号-1
   copyright: true # Copyright of theme and framework
 
 # Analysis

@@ -839,8 +839,10 @@ note:
 pjax:
   enable: true
   exclude:
-    # - xxxx
-    # - xxxx
+    - /douban/movies/
+    - /douban/books/
+    - /douban/games/
+    - /douban/songs/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:

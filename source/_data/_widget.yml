@@ -1,0 +1,31 @@
+# 文件名从_widget修改为widget即可启用
+
+# top: 创建的 widget 会出现在非 sticky 区域（即所有页面都会显示)
+# bottom: 创建的 widget 会出现在 sticky 区域（除了文章页都会显示)
+
+
+# 2023-02-11 QQ音乐30首添加到了底部左侧,并启用了Pjax,切换页面不停止播放。这里侧边栏内容不再启用
+# 另外备注：对于aplayer，一个页面只能同时播放一个aplayer，存在两个的话，播放一个的同时所有其他正在播放的aplayer都会被自动暂停。
+
+# 【自定义侧边栏】- QQ音乐 - 每日30首
+# top:
+#   - class_name:
+#     id_name:
+#     name: QQ音乐 - 每日30首
+#     icon: iconfont icon-music
+#     html: '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script><meting-js id="5680199276" server="tencent" type="playlist" class="no-destroy"></meting-js>'
+
+top:
+  - class_name:
+    id_name:
+    name: 
+    icon: 
+    html: 
+
+bottom:
+  - class_name: 
+    id_name: 
+    name: 
+    icon: 
+    order:
+    html: 
